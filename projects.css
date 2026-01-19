@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.font{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* shared item */
+.display-flex{
+  display: flex;
+}
+
+.navber-section{
+  width: 100%;
+  background-color: #1A0B2E;
+}
+.navbar{
+  width: 100%;
+  max-width:1200px ;
+  justify-content:space-between ;
+  align-items: center;
+  margin: 0 auto;
+  padding: 22px;
+}
+
+.nav-info ul{
+
+}
+.nav-info ul li{
+list-style: none;
+gap: 32px;
+}
+.nav-info ul li a{
+text-decoration: none;
+color: white;
+font-size: 1rem;
+}
+
+.btn{
+  width:135px ;
+  
+  background: linear-gradient(45.64deg,rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)) ;
+  padding:12.5px ;
+  color:white ;
+  font-size: 1rem;
+  font-weight:600 ;
+  border-radius: 10000px;
+  border: none;
+}
