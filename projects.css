@@ -1,6 +1,7 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 .font{
@@ -18,6 +19,9 @@
   width: 100%;
   background-color: #1A0B2E;
 }
+
+
+/* Header section */
 .navbar{
   width: 100%;
   max-width:1200px ;
@@ -28,12 +32,18 @@
 }
 
 .nav-info ul{
-
+gap: 32px;
 }
+
+.nav-info ul li{
+list-style: none;
+}
+
 .nav-info ul li{
 list-style: none;
 gap: 32px;
 }
+
 .nav-info ul li a{
 text-decoration: none;
 color: white;
@@ -42,7 +52,6 @@ font-size: 1rem;
 
 .btn{
   width:135px ;
-  
   background: linear-gradient(45.64deg,rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)) ;
   padding:12.5px ;
   color:white ;
@@ -50,4 +59,56 @@ font-size: 1rem;
   font-weight:600 ;
   border-radius: 10000px;
   border: none;
+}
+
+/* banner-section */
+
+
+
+
+
+
+
+
+/* responsive */
+/* small device */
+@media screen and (max-width:576px) {
+  .nav-info ul{
+display: none;
+}
+.btn{
+ display: none; 
+}
+.hamburger{
+  display: block;
+  color: white;
+  font-size: 24px;
+}
+.navbar{
+  width: 100%;
+  /* gap: 10px; */
+  justify-content:space-between ;
+  align-items: center;
+  margin: 0 auto;
+  padding:10px 40px ;
+}
+
+}
+
+
+
+/* medium device */
+@media screen and (min-width:576px) and (max-width:992px) {
+  .nav-info ul{
+display: none;
+}
+.navbar{
+  width: 100%;
+  /* gap: 10px; */
+  justify-content:space-between ;
+  align-items: center;
+  margin: 0 auto;
+  padding:10px 40px ;
+}
+
 }
