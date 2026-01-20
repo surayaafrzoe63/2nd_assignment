@@ -15,7 +15,7 @@
   display: flex;
 }
 
-.navber-section,.banner-section,.about-section{
+.navber-section,.banner-section,.about-section,.featured-section{
   width: 100%;
   
   background-color: #1A0B2E;
@@ -286,6 +286,120 @@ display: flex;
   line-height: 24px;
   margin: 0;
 }
+/* Featured Episodes Section */
+.episods-section{
+  width: 75%;
+  max-width:1200px ;
+  margin: 0 auto;
+  padding: 120px 0;
+  text-align: center;
+}
+.episods h2{
+  font-size:3rem ;
+  font-weight:700 ;
+  color: white;
+}
+.video-flex{
+  justify-content: space-between;
+  align-items: flex-start;
+    gap: 30px;
+  
+  }
+
+  .video{
+    background-color: #250D44;
+    margin-top: 40px;
+    border: none;
+    border-radius: 12px;
+    text-align: left;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  .video-media{
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 12px 12px 0 0;
+  }
+.video-media iframe{
+  width: 100%;
+  height: 100%;
+}
+.video h3{
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: white;
+  margin: 16px;
+}
+.video p{
+  font-size: 1rem;
+  font-weight: 400;
+  color: #FFFFFF60;
+  margin: 0 16px 12px;
+  line-height: 24px;
+}
+ .video .green{
+   font-size: 1rem;
+  font-weight: 400;
+  color: #00FF88;
+  margin-bottom: 16px;
+  margin-left: 16px;
+}
+
+/* Host section */
+.host-section{
+  margin:120px 0 ;
+}
+.host-section h2{
+  font-size:3rem ;
+  font-weight:700 ;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.host{
+  justify-content: space-between;
+  gap: 24px;
+  align-items: center;
+  background-color: #351165;
+  padding: 30px;
+  border: none;
+  border-radius: 40px;
+}
+
+.host-info{
+  text-align: left;
+}
+.host-info h3{
+   font-size:2rem ;
+  font-weight:700 ;
+  color: white;
+  margin-bottom: 16px;
+}
+.host-info p{
+   font-size:1rem ;
+  font-weight:400 ;
+  color:#FFFFFF60;
+  margin-bottom: 16px;
+  line-height: 24px;
+}
+.social-links{
+  gap: 8px;
+  margin-bottom: 25px;
+  
+}
+.social-links a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 1px solid #FFFFFF60;
+ 
+}
+
 
 
 
@@ -387,6 +501,55 @@ font-size:.8rem ;}
   grid-column: span 1;
   grid-row: span 1;
 }
+
+/* Episod section */
+.episods-section{
+  width: 90%;
+  padding: 60px 0;
+}
+
+.episods h2{
+  font-size:2.1rem ;
+}
+.video-flex{
+    gap: 15px;
+  
+  }
+.video-flex{
+  flex-direction:column;
+}
+.video{
+    margin-top: 20px;
+  }
+/* Host section */
+.host-section{
+  margin:70px 0 ;
+}
+.host-section h2{
+  font-size:2.5rem ;
+  margin-bottom: 20px;
+}
+
+.host{
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+  align-items: center;
+  padding: 30px;
+}
+.host-info{
+  text-align: center;
+}
+.host-info h3{
+   font-size:1.8rem ;
+}
+.host-info p{
+   font-size:.9rem ;
+}
+.social-links{
+  margin-bottom: 20px;
+  justify-content: center;
+}
 }
 
 
@@ -475,4 +638,26 @@ font-size:.8rem ;}
   grid-column: span 1;
   grid-row: span 1;
 }
+/* episods-sectio */
+
+.episods-section{
+  width: 90%;
+  padding: 60px 0;
+}
+
+.episods h2{
+  font-size:2.8rem ;
+}
+.video-flex{
+    gap: 15px;
+  
+  }
+.video-flex{
+  flex-direction:column;
+}
+.video{
+    margin-top: 20px;
+  }
+
+
 }
